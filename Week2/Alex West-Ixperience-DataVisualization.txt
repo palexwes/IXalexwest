@@ -1,0 +1,30 @@
+Alex West - Ixperience - Data Visualization
+
+
+Goal Of Analysis : Find which areas of the United States and what years are struggling the most from drug abuse through overdose rates.
+Analysis Conclusion - Overdose Crisis
+Description
+Data represents provisional counts for drug overdose deaths based on a current flow of mortality data in the National Vital Statistics System. 
+Original Dataset →  Drug Overdose Death Counts
+Data Dictionary
+state (object)
+year (int)
+months (object)
+deaths (float)
+Entity Description
+Regions (midwest, east coast, etc.)
+Seasons (fall, summer, spring, winter)
+#Conclusion
+# - Removed all duplicates
+# - No missing values in the dataset
+# - Ridded most the outliers out of the dataset that were part of deaths column
+# - Removed the state us from the data set as I only want states
+
+
+#Conclusions
+# - the deaths variable does not follow a normal distribution, appears to be skewed to the right
+# - Death quantity types (very little - Very large) are equally distributed
+# - Winter has the least amount of data, no serious discrepancies though
+# - Most of the data coming out of the southern region
+
+
